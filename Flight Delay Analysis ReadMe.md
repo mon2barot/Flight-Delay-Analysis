@@ -61,9 +61,10 @@ The following three models have been applied -
   ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB1.JPG "XGBoost")
  
   <br>
-  - The fitting of every model is done via the <i>fit()</i> function on the training set .<br>
-  - Predictions for every model have been done via the <i>predict()</i> function on the test set and the entire dataset as well.
- 
+   <ul>
+   <li>The fitting of every model is done via the <i>fit()</i> function on the training set .</li>
+   <li>Predictions for every model have been done via the <i>predict()</i> function on the test set and the entire dataset as well.</li>
+ </ul>
  ### Model Evaluation 
  
  
