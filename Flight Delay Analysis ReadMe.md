@@ -41,9 +41,7 @@ The following three models have been applied -
 1) Multiple Linear Regression: 
 <br> The <i>sklearn</i> package has been used to import <i>LinearRegression</i>.
 <br> The <i>intercept_</i> and <i>coef_</i> method has been used to calculated the regrssion equation.
-<br>
-
-![alt text] (https://github.com/mon2barot/Universe/blob/master/images/FDMLR1.JPG "Multiple Linear Regression")
+![alt text]( "Multiple Linear Regression")
 
 
 
