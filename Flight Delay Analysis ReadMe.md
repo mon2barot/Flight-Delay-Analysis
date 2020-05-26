@@ -38,10 +38,29 @@ Therefore it was converted to float.
 
 The following three models have been applied - 
 <br>
-1) Multiple Linear Regression: 
+
+<b>1) Multiple Linear Regression: </b>
 <br> The <i>sklearn</i> package has been used to import <i>LinearRegression</i>.
 <br> The <i>intercept_</i> and <i>coef_</i> method has been used to calculated the regrssion equation.
-![alt text]( "Multiple Linear Regression")
+<br>
+
+![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDMLR1.JPG "Multiple Linear Regression")
 
 
+<b>2) Radndom Forest: </b>
+<br> The <i>RandomForestRegressor</i>has been imported from the <i>ensemble</i> learning method of the sklearn library.
+<br>
 
+![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDRF1.JPG "Random Forest")
+
+<b> 3) Extra Gradient Boosting: </b>
+<br> The <i>xgboost</i> library has been imported and the dataset has been converted into Dmatrix for faster processing. 
+<br> Finally,the <i>XGBRegressor class is called and several of its hyper-parameters are set.
+ <br>
+  
+  ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB1.JPG "XGBoost")
+ 
+  <br>
+  - The fitting of every model is done via the <i>fit()</i> function.<br>
+  - Predictions for every model have been done via the <i>predict()</i> function.
+ 
