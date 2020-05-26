@@ -82,8 +82,8 @@ Every model has been evaluated by determining its R squared and RMSE values.
 XGBoost is the best model for predicting the flight delays. Take a look at the predictions in the image below.<br>
 <br>
 
-[!alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB2.JPG "XGBoost Prediction")
-<br>
+ ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB2.JPG "XGBoost Prediction")
+
 
 From the predictions it can be understood that Alaska Airlines flight from SEA to ANC will be delayed 9 by minutes. It can also be interpreted that American Airlines flight from LAX to PBI will be 3 minutes early.
 
