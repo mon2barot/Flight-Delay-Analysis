@@ -31,6 +31,19 @@ Therefore it was converted to float.
 3) Finally missing values were imputed and categorical variables were handled by creatging dummy variables. 
 <br>
 <br>
-<i>Data cleaning has been done in a separte Jupyter Notebook.</i>
+<i>Data cleaning is done in a separte Jupyter Notebook.</i>
 <br>
+
+### Model Building
+
+The following three models have been applied - 
+<br>
+1) Multiple Linear Regression: 
+<br> The <i>sklearn</i> package has been used to import <i>LinearRegression</i>.
+<br> The <i>intercept_</i> and <i>coef_</i> method has been used to calculated the regrssion equation.
+<br>
+
+![alt text] (https://github.com/mon2barot/Universe/blob/master/images/FDMLR1.JPG "Multiple Linear Regression")
+
+
 
