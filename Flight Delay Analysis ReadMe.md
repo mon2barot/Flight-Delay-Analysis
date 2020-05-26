@@ -55,7 +55,7 @@ The following three models have been applied -
 
 <b> 3) Extra Gradient Boosting: </b>
 <br> The <i>xgboost</i> library has been imported and the dataset has been converted into Dmatrix for faster processing. 
-<br> Finally, the <i>XGBRegressor class is called and several of its hyper-parameters are set.
+<br> Finally, the <i>XGBRegressor</i> class is called and several of its hyper-parameters are set.
  <br>
   
   ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB1.JPG "XGBoost")
@@ -65,6 +65,7 @@ The following three models have been applied -
    <li>The fitting of every model is done via the <i>fit()</i> function on the training set .</li>
    <li>Predictions for every model have been done via the <i>predict()</i> function on the test set and the entire dataset as well.</li>
  </ul>
+ 
  ### Model Evaluation 
  
  
