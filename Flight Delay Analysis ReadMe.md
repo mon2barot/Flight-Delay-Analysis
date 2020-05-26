@@ -41,26 +41,48 @@ The following three models have been applied -
 
 <b>1) Multiple Linear Regression: </b>
 <br> The <i>sklearn</i> package has been used to import <i>LinearRegression</i>.
-<br> The <i>intercept_</i> and <i>coef_</i> method has been used to calculated the regrssion equation.
+<br> The <i>intercept_</i> and <i>coef_</i> method has been used to calculated the regression equation.
 <br>
 
 ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDMLR1.JPG "Multiple Linear Regression")
 
 
 <b>2) Radndom Forest: </b>
-<br> The <i>RandomForestRegressor</i>has been imported from the <i>ensemble</i> learning method of the sklearn library.
+<br> The <i>RandomForestRegressor</i> has been imported from the <i>ensemble</i> learning method of the sklearn library.
 <br>
 
 ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDRF1.JPG "Random Forest")
 
 <b> 3) Extra Gradient Boosting: </b>
 <br> The <i>xgboost</i> library has been imported and the dataset has been converted into Dmatrix for faster processing. 
-<br> Finally,the <i>XGBRegressor class is called and several of its hyper-parameters are set.
+<br> Finally, the <i>XGBRegressor class is called and several of its hyper-parameters are set.
  <br>
   
   ![alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB1.JPG "XGBoost")
  
   <br>
-  - The fitting of every model is done via the <i>fit()</i> function.<br>
-  - Predictions for every model have been done via the <i>predict()</i> function.
+  - The fitting of every model is done via the <i>fit()</i> function on the training set .<br>
+  - Predictions for every model have been done via the <i>predict()</i> function on the test set and the entire dataset as well.
  
+ ### Model Evaluation 
+ 
+ 
+Every model has been evaluated by determining its R squared and RMSE values. 
+
+1) For MLR the R squared value is 100%, which indicates overfitting. The RMSE value is 0. Hence it is not a good model. 
+
+2) For Random Forest the R squared value is almost 100% and RMSE is a low value of 2.56. However, model indicates overfitting. 
+
+3) For XGBoost the R square value is 70% and the RMSE value is 22.2 which is good. Hence this is a good model.
+
+### Conclusion
+
+XGBoost is the best model for predicting the flight delays. Take a look at the predictions in the image below.<br>
+<br>
+
+[!alt text](https://github.com/mon2barot/Universe/blob/master/images/FDXGB2.JPG "XGBoost Prediction")
+<br>
+
+From the predictions it can be understood that Alaska Airlines flight from SEA to ANC will be delayed 9 by minutes. It can also be interpreted that American Airlines flight from LAX to PBI will be 3 minutes early.
+
+Hence, information regarding flight delays or early arrivals can be utilized to make decisions. For example the decisions regarding exit gate numbers can be made for a smoother customer experience. Furthermore, even parking spaces can adjusted such that other scheduled flights are not delayed.  
